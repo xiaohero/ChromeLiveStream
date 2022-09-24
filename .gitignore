@@ -1,0 +1,10 @@
+**/.DS_Store
+**/node_modules/*
+**/.idea/*
+**/logs/*
+*.log
+nohup.out
+dump.rdb
+dist
+path.txt
+npm-debug.log

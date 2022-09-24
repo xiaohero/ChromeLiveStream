@@ -1,0 +1,27 @@
+{
+  "name": "ChromeLiveStream",
+  "description": "Chrome Screen Recorder",
+  "version": "1.0.0",
+  "author": "xxz123",
+  "license": "self",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager ./src ElectronScreenRecorder  --platform=darwin --arch=x64 --version=0.36.0 --icon=src/Icon.icns"
+  },
+  "main": "src/main.js",
+  "keywords": [
+    "Electron",
+    "Video Recorder",
+    "Audio Recorder",
+    "Rtmp"
+  ],
+  "dependencies": {
+    "blob-to-buffer": "^1.2.9",
+    "domify": "^1.4.0",
+    "electron": "^10.1.5",
+    "jquery": "^3.5.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.2.0"
+  }
+}
